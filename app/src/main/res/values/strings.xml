@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CHAI</string>
+    <string name="welcome">Welcome to CHAI APP enter your username and password to login:</string>
+</resources>
