@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePatientActivity"
+    android:orientation="vertical">
+
+
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:layout_margin="5dp">
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:inputType="text"
+         android:hint="Patient Names"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:inputType="textPassword"
+         android:hint="Password"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:inputType="number"
+         android:hint="Patient age"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:inputType="phone"
+         android:hint="Patient PhoneNumber"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:hint="Patient's Email"
+         android:inputType="textEmailAddress"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+
+     <EditText
+         android:id="@+id/editTextTextMu"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:hint="Any other informaton to note or describe on the patient."
+         android:ems="10"
+         android:gravity="start|top"
+         android:inputType="textMultiLine" />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_margin="5dp"
+         android:textSize="17sp"
+         android:text="Select City:"/>
+
+     <Spinner
+         android:id="@+id/spinner_disease"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="10dp" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_margin="5dp"
+         android:textSize="17sp"
+         android:text="Select Illness or Disease:"/>
+     <Spinner
+         android:id="@+id/spinner_city"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:text="Create Patient"
+         android:textColor="@color/colorwhite"
+         android:textStyle="bold"
+         android:background="@drawable/button_desgin"/>
+
+
+
+
+ </LinearLayout>
+
+</LinearLayout>
