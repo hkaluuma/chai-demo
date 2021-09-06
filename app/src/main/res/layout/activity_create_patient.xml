@@ -15,6 +15,7 @@
      android:layout_margin="5dp">
 
      <EditText
+         android:id="@+id/edtx_patientNames"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          android:inputType="text"
@@ -23,6 +24,7 @@
          android:layout_width="match_parent"
          android:layout_height="10dp" />
      <EditText
+         android:id="@+id/editext_pasword"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          android:inputType="textPassword"
@@ -31,6 +33,7 @@
          android:layout_width="match_parent"
          android:layout_height="10dp" />
      <EditText
+         android:id="@+id/edtx_age"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          android:inputType="number"
@@ -39,6 +42,7 @@
          android:layout_width="match_parent"
          android:layout_height="10dp" />
      <EditText
+         android:id="@+id/edtx_contact"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          android:inputType="phone"
@@ -48,16 +52,17 @@
          android:layout_width="match_parent"
          android:layout_height="10dp" />
      <EditText
+         android:id="@+id/edtx_email"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          android:hint="Patient's Email"
          android:inputType="textEmailAddress"/>
      <TextView
          android:layout_width="match_parent"
-         android:layout_height="10dp" />
+         android:layout_height="5dp" />
 
      <EditText
-         android:id="@+id/editTextTextMu"
+         android:id="@+id/edtx_othercommments"
          android:layout_width="match_parent"
          android:layout_height="100dp"
          android:hint="Any other informaton to note or describe on the patient."
@@ -66,13 +71,14 @@
          android:inputType="textMultiLine" />
      <TextView
          android:layout_width="match_parent"
-         android:layout_height="10dp" />
+         android:layout_height="5dp" />
+
      <TextView
          android:layout_width="match_parent"
          android:layout_height="30dp"
          android:layout_margin="5dp"
          android:textSize="17sp"
-         android:text="Select City:"/>
+         android:text="Select Illness or Disease:"/>
 
      <Spinner
          android:id="@+id/spinner_disease"
@@ -81,20 +87,21 @@
          />
      <TextView
          android:layout_width="match_parent"
-         android:layout_height="10dp" />
+         android:layout_height="5dp" />
 
      <TextView
          android:layout_width="match_parent"
          android:layout_height="30dp"
          android:layout_margin="5dp"
          android:textSize="17sp"
-         android:text="Select Illness or Disease:"/>
+         android:text="Select City:"/>
      <Spinner
          android:id="@+id/spinner_city"
          android:layout_width="match_parent"
          android:layout_height="40dp"
          />
      <Button
+         android:id="@+id/register_patient"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_margin="10dp"
